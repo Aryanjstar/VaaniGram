@@ -1,42 +1,36 @@
-### **VaaniGram: A Smart Language Translation Tool for Indian Languages**
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-**VaaniGram** is a cool and easy-to-use translation tool that helps you translate text between different languages spoken in India. Whether you’re trying to translate something from Hindi to Tamil or Bengali to Marathi, VaaniGram makes it possible using smart technology that understands the languages and gives you accurate translations.
+## Getting Started
 
-#### **Why VaaniGram?**
+First, run the development server:
 
-In India, there are so many different languages, and sometimes it can be tough to communicate when you don’t speak the same language. VaaniGram makes it easy to break down those language barriers, helping people understand each other no matter which language they speak.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun run dev
+```
 
-#### **How It Works:**
-1. **Smart Technology (Transformer Models):**  
-   VaaniGram uses a special kind of computer program called **transformers** (similar to how we humans process language) that helps the system understand and translate the text from one language to another. Think of it like a super-smart robot that reads and translates words in real time.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-2. **Works for Many Indian Languages:**  
-   VaaniGram supports translations for many Indian languages like Hindi, Tamil, Telugu, Bengali, Gujarati, and more. It’s perfect for anyone who wants to translate between different Indian languages.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-3. **Pretrained Models:**  
-   The system comes with pre-trained models (think of it like a brain that’s already learned a lot of language patterns) that help give accurate translations without needing to train everything from scratch.
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-4. **Simple to Use:**  
-   Even if you're new to technology, it’s easy to set up and use. Just follow the instructions, and you’ll be able to start translating text with ease.
+## Learn More
 
-#### **Key Features:**
-- **Fast Translations:**  
-   It quickly translates text between different languages.
-  
-- **Supports Multiple Languages:**  
-   Translate between many Indian languages with just a click.
-  
-- **Easy Setup:**  
-   You don’t need to be a tech expert to get it running. Just follow simple instructions to set it up on your computer.
+To learn more about Next.js, take a look at the following resources:
 
-#### **Who Can Use It?**
-- **Students:** If you’re working on a project or need translations for your studies, VaaniGram is a great tool.
-- **Researchers & Developers:** Those who want to explore or improve language translation systems can use VaaniGram to experiment.
-- **Anyone Who Needs to Translate:** If you're traveling, working in different languages, or just curious, VaaniGram can help you understand and translate various Indian languages.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-#### **Why Is This Important?**
-India is home to a rich diversity of languages, and sometimes it’s hard to find translation tools that support all of them. VaaniGram solves that problem, making it easy for everyone to communicate, no matter which language they speak. It also opens up new possibilities for building apps and systems that can help in many industries, like education, healthcare, and more.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
----
+## Deploy on Vercel
 
-In simple words, **VaaniGram** is a helpful tool that makes life easier by breaking down language barriers in India. Whether you're translating for a school project or trying to communicate with someone who speaks a different language, VaaniGram is here to help!
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
